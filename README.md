@@ -7,7 +7,7 @@ This is the REST API backend for the Product Management System. It is built usin
 *   **Framework:** FastAPI
 *   **Database:** MongoDB
 *   **Driver:** Motor (Async MongoDB driver)
-*   **Authentication:** Passlib (Bcrypt hashing)
+* 
 
 ## ⚙️ Prerequisites
 1.  **Python** installed on your machine.
@@ -25,8 +25,6 @@ This is the REST API backend for the Product Management System. It is built usin
     python -m venv venv
     # Windows
     venv\Scripts\activate
-    # Mac/Linux
-    source venv/bin/activate
     ```
 
 3.  **Install dependencies:**
