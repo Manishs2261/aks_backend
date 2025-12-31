@@ -29,8 +29,25 @@ This is the REST API backend for the Product Management System. It is built usin
 
 3.  **Install dependencies:**
     ```bash
-    pip install -r requirements.txt
+    pip install fastapi uvicorn
+    pip install "fastapi[standard]"   
     ```
+4.  **Run File:**
+    ```bash
+    #for mobile and change ip adrees
+    uvicorn main:app --reload --host 0.0.0.0 --port 8000
+    
+    #see api details
+    uvicorn main:app --reload
+    
+    ```
+
+5 API endpoint details
+   ```bash
+    
+    http://127.0.0.1:8000/docs
+    
+   ```
 
 ## 🗄️ Database Configuration
 Ensure MongoDB is running locally. The application connects to:
